@@ -3,7 +3,7 @@ const { getReqData } = require("./utils");
 
 const http = require('http');
 
-const hostname = '127.0.0.1';
+const hostname = '192.168.1.21';
 const port = 3000;
 
 const server = http.createServer(async (req, res) => {
